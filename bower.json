@@ -1,0 +1,21 @@
+{
+  "name": "bindrjs",
+  "version": "0.0.1",
+  "authors": [
+    "Frederico <fred.rbittencourt@gmail.com>"
+  ],
+  "description": "Simple HTML data binding",
+  "keywords": [
+    "bind",
+    "binding",
+    "html5"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

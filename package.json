@@ -1,0 +1,19 @@
+{
+  "name": "bindrjs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/bind.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-run": "^0.5.2",
+    "mocha": "^2.4.5",
+    "mocha-phantomjs": "^4.0.2"
+  }
+}

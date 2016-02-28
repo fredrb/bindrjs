@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Example</title>
+    <script src="../dist/bindr.js"></script>
+  </head>
+  <body>
+    <b class="bindable" data-input="myVar">Default</b>
+    <input type="text" name="name" value="">
+    <script>
+      var myVar = "Test";
+      Bindr.bindValues({myVar});
+      myVar = "super";
+    </script>
+  </body>
+</html>
